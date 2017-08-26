@@ -90,12 +90,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TrimsFinalFinishWebApp\TrimsFinalFinishWebApp.csproj">
-      <Project>{4BA81E77-000D-45FE-9527-274FB1BE63CC}</Project>
-      <Name>TrimsFinalFinishWebApp</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
